@@ -1,0 +1,35 @@
+
+@import url("./header.css");
+@import url("./presentation.css");
+
+:root {
+    --cor-primaria: #F5EFE6;
+    --cor-secundaria: #E8DFCA;
+    --cor-terciaria: #393E46;
+    --cor-quartenaria: #222831;
+
+    --cor-texto-clara: #F5EFE6;
+    --cor-texto-colorida: #00ADB5;
+    --cor-texto-escura: #222831;
+
+    --font-title: 'Roboto', sans-serif;
+    --font-standard: 'Rajdhani', sans-serif;
+}
+
+body {
+    background-color: var(--cor-terciaria);
+    font-family: var(--font-standard);
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--cor-texto-clara);
+}
+
+h2, span{
+    color: var(--cor-texto-colorida);
+    font-family: var(--font-title);
+}
+
+h4 {
+    text-align: center;
+    font-size: .9em;
+}
