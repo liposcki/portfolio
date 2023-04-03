@@ -30,7 +30,7 @@
 
     <nav class="menu-list">
         <a href="#" class="menu-item">Sobre Mim</a>
-        <a href="#" class="menu-item">Habilidades</a>
+        <a href="#" class="menu-item">Tecnologias</a>
         <a href="#" class="menu-item">Currículo</a>
         <a href="#" class="menu-item">Projetos</a>
         <a href="#" class="menu-item">Contato</a>
@@ -48,7 +48,7 @@
         
         <section class="about-me">
             <h2>Sobre Mim</h2>
-            <p class="text-justify">Meu primeiro contato com a programação foi durante a faculdade de engenharia resolvendo problemas de lógica de programação em C, cogitei migrar de curso porém não o fiz. Após alguns anos trabalhei com análise de dados onde a oportunidade de automatizar relatórios com SQL e VBA surgiu, neste momento decidi iniciar a graduação em ADS e iniciar o processo de migração de carreira. Durante a graduação ao ver um pouco sobre cada assunto decidi inicialmente me aprofundar no desenvolvimento Front-End.</p>
+            <p class="text-justify">Meu primeiro contato com a programação foi durante a faculdade de engenharia resolvendo problemas de lógica de programação em C, cogitei migrar de curso porém não o fiz. Após alguns anos trabalhei com análise de dados onde a oportunidade de automatizar relatórios com SQL e VBA surgiu, neste momento decidi iniciar a graduação em ADS e iniciar o processo de migração de carreira. Durante a graduação ao ver um pouco sobre cada assunto decidi inicialmente me aprofundar no desenvolvimento Front-End, porém busco me tornar desenvolvedor Full Stack.</p>
         </section>
 
         <section class="technology">
@@ -75,26 +75,62 @@
                     <h3>React</h3>
                 </li> -->
                 <li class="technology-item">
+                    <i><img src="./assets/img/icon-ts.svg"/></i>
+                    <h3>TS</h3>
+                </li>
+                <li class="technology-item">
                     <i class="fa-brands fa-square-git technology-icon"></i>
                     <h3>Git</h3>
                 </li>
                 <li class="technology-item">
-                    <i class="fa-solid fa-database technology-icon"></i>
-                    <h3>SQL</h3>
+                    <i class="fa-brands fa-python technology-icon"></i>
+                    <h3>Python</h3>
                 </li>
                 <li class="technology-item">
                     <i class="fa-brands fa-java technology-icon"></i>
                     <h3>Java</h3>
                 </li>
+                <li class="technology-item">
+                    <i><img src="./assets/img/icon-sql.svg" alt="Logo Microsoft SQL Server"></i>
+                    <h3>SQL</h3>
+                </li>
             </ul>
         </section>
 
         <section class="projects">
-
+            <h2>Projetos</h2>
+            <ul class="projects-list">
+                <li class="projects-item">
+                    <img class="projects-img" src="./assets/img/stand-by.gif" alt="Imagem - Aguarde...">
+                    <h3>Em breve...</h3>
+                </li>
+                <li class="projects-item">
+                    <img class="projects-img" src="./assets/img/stand-by.gif" alt="Imagem - Aguarde...">
+                    <h3>Em breve...</h3>
+                </li>
+                <li class="projects-item">
+                    <img class="projects-img" src="./assets/img/stand-by.gif" alt="Imagem - Aguarde...">
+                    <h3>Em breve...</h3>
+                </li>
+            </ul>
         </section>
 
         <section class="contact">
-
+            <h2>Contato</h2>
+            <form class="contact-form">
+                <fieldset>
+                    <label for="name">Nome</label>
+                    <input name="name" id="name" type="text" required>
+                </fieldset>
+                <fieldset>
+                    <label for="e-mail">E-mail</label>
+                    <input name="e-mail" id="e-mail" type="email" required minlength="4">
+                </fieldset>
+                <fieldset>
+                    <label for="message">Mensagem</label>
+                    <input name="message" id="message" type="text" required>
+                </fieldset>
+            </form>
         </section>
     </main>
     
